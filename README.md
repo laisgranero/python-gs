@@ -1,5 +1,13 @@
 # README
 
+## Integrantes do grupo
+
+RM 551168 - Guilherme Silva Dos Santos
+RM 97592 - Kayque Moraes Días
+RM 98500 - Laís Granero Bertoncello
+RM 99134 - Samuel Ramos de Almeida
+RM 98292 - Wesley de Souza Silva
+
 ## Descrição do projeto
 
 Esse código faz parte do Share a Bite, uma plataforma de compartilhamento de alimentos que conecta fornecedores a organizações dedicadas ao combate à fome para que haja o aproveitamento de alimentos que seriam desperdiçados por alguma razão. 
