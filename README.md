@@ -10,22 +10,19 @@ A Share a Bite nasceu diante do problema da grande quantidade de desperdício de
 
 O programa oferece as seguintes funcionalidades:
 
-1. Para fornecedores:
-   1.1. Cadastro de alimentos excedentes:
+1. Para fornecedores - Cadastro de alimentos excedentes:
    - Os fornecedores podem cadastrar alimentos na plataforma informando o nome do alimento e a data de vencimento dele;
    - Utilizando as funcionalidades da biblioteca Datetime para coletar a data atual, conseguimos criar a função calcula_validade() para verificar se o alimento já está vencido ou próximo do vencimento independente do dia em que o código for acessado;
    - Se o alimento estiver vencido, ele não poderá ser compartilhado na plataforma;
    - Caso o alimento vença em menos de 30 dias da data atual, o fornecedor recebe um aviso de que ele precisa ser trocado o quanto antes;
    - Os alimentos cadastrados são armazenados em uma lista e suas validades em outra, para que sejam consultadas por organizações durante a solicitação.
 
-2. Para organizações de combate à fome:
-  2.1. Solicitação de alimentos cadastrados na plataforma:
+2. Para organizações de combate à fome - Solicitação de alimentos cadastrados na plataforma:
    - Mostramos ao usuário uma lista com os alimentos disponíveis para solicitação e a quantidade de dias restantes para que ele vença;
    - O usuário seleciona o alimento desejado e o adiciona à sua lista de pedidos;
    - Ao ser adicionado a uma lista de pedidos, o alimento é removido da lista de alimentos disponível. O mesmo acontece com a sua validade.
 
-3. Para ambos: 
-   3.1. Encerramento do programa:
+3. Para ambos - Encerramento do programa:
    - O programa pode ser encerrado a qualquer momento a partir da seleção da opção 3.
    - Nessa etapa são exibidos os pedidos feitos pelo usuário, se aplicável.
 
