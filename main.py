@@ -112,6 +112,8 @@ Digite o número com base no que você é ou encerre sua sessão: ''')
     else:
         print("Obrigada por utilizar o Share a Bite!")
         if lista_de_pedidos != []:
-            print("Os seus pedidos foram:")
+            print("\nOs seus pedidos foram:")
             printar_lista(lista_de_pedidos, validade_lista_pedidos)
+            print("\nFique atento, pois logo eles serão entregues a você!")
         break
+
